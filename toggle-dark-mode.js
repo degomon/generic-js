@@ -3,6 +3,7 @@ function toggleDarkMode() {
   const body = document.body;
   body.classList.toggle('bg-light');
   body.classList.toggle('dark-mode');
+  body.classList.toggle('bg-dark');
 
   const navBar = document.getElementById('globalNavBar');
   navBar.classList.toggle('bg-light');
