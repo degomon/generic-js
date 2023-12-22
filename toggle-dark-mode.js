@@ -39,7 +39,7 @@ function toggleDarkMode() {
   if (body.classList.contains('dark-mode')) {
     body.classList.remove('bg-light');
   }
-  
+
   // Store the dark mode preference in a cookie
   const isDarkModeEnabled = body.classList.contains('dark-mode');
   document.cookie = `darkModeEnabled=${isDarkModeEnabled}; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/`;
