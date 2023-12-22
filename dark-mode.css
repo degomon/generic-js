@@ -1,0 +1,23 @@
+<style>
+
+.dark-mode {
+  background-color: #1a1a1a; /* Change to your desired dark background color */
+  color: #ffffff; /* Change to your desired dark text color */
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #ffffff; /* Change to your desired dark icon color */
+  color: #ffffff; /* Change to your desired dark text color */
+}
+
+.dark-mode .navbar .nav-link {
+  color: #ffffff !important; /* White text for dark mode */
+}
+
+.dark-mode .navbar .nav-link:hover,
+.dark-mode .navbar .nav-link:focus,
+.dark-mode .navbar .nav-link:active {
+  text-decoration: underline;
+}
+
+</style>
